@@ -18,7 +18,7 @@
                 <element label="Legal" sequence="2" value="legal"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="lowUrgency" label="Urgency" mandatory="true" max_length="40" name="u_urgency" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="-- None --" label="Urgency" mandatory="true" max_length="40" name="u_urgency" type="string">
             <choice>
                 <element label="No immediate impact or there is a workaround" sequence="0" value="lowUrgency"/>
                 <element label="Impacting work and a workaround is not sustainable" sequence="1" value="mediumUrgency"/>
